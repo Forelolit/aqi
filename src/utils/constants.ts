@@ -1,6 +1,7 @@
 export const paths = {
     home: '/',
     notFound: '*',
+    register: '/registration',
 };
 
 export const initialPrompt =

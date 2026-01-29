@@ -11,7 +11,7 @@ export const useAuthStore = create<AuthStore>()(
             logout: () => set({ user: null, isAuth: false }),
         }),
         {
-            name: 'user-storage',
+            name: 'airwise user-storage',
             partialize: (state) => ({
                 isAuth: state.isAuth,
                 user: state.user,

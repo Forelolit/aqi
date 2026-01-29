@@ -15,6 +15,10 @@ export const router = createBrowserRouter([
                 element: <Pages.Notfound />,
                 path: paths.notFound,
             },
+            {
+                element: <Pages.Register />,
+                path: paths.register,
+            },
         ],
     },
 ]);
